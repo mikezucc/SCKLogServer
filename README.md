@@ -15,7 +15,7 @@
 # SCKLog Server
 Lean remote logger and static file server. Displays logs to web page and writes to file.
 
-[iOS Client quick start (ObjC)](link to repo)
+[iOS Client quick start (ObjC)](https://github.com/mikezucc/SCKLoggerObjC)
 
 Client breakdown:
 1. POST to `/start` with the appropriate session stamp to start a new log file with that <sessionstamp>-log.txt
