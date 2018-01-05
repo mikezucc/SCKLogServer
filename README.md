@@ -23,15 +23,25 @@ Client breakdown:
 
 ## setup
 `npm install`
+
 `node server.js`
 
-## observe:
-`/` => shows directory through Ecstatic static file server
-`/watch`, active session web page
+## observe
+path: `/` => shows directory through Ecstatic static file server
 
-## api:
-`/start`, body:{"session":<string>}, method:`POST`
-`/log`, body:{"payload":<string>}, method:`POST`
+path: `/watch`=> active session web page
+
+## api
+path: `/start`
+
+    body:{"session":<string>} 
+    method:`POST`
+     
+     
+path: `/log`
+
+    body:{"payload":<string>} 
+    method:`POST`
 
 ## libs
 - [Node/npm](https://nodejs.org/)
