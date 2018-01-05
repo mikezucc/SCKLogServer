@@ -65,7 +65,7 @@ app.post('/start', function(req, res) {
 });
 app.post('/log', function(req, res) {
   var payloadString = req.body.payload;
-  payloadString = payloadString + "\n<br/>";
+  payloadString = payloadString + "\n";
   record(payloadString);
   res.writeHeader(200, {"Content-Type": "text/html"});
   res.end()

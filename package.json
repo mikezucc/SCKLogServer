@@ -1,12 +1,11 @@
 {
-    "name": "tunein-connect",
+    "name": "SCKLogServer",
     "preferGlobal": true,
     "version": "0.0.1",
     "author": "T Doggy <tigran@saakyan.com>",
     "description": "Central Services Bureau",
     "scripts": {
-        "start": "node ./server.js",
-        "test": "mocha spec"
+        "start": "node ./server.js"
     },
     "dependencies": {
         "body-parser": "^1.18.2",
