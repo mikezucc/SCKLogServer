@@ -24,7 +24,7 @@ Client breakdown:
 ## setup
 `npm install`
 
-`node server.js`
+`npm start`
 
 ## observe
 path: `/` => shows directory through Ecstatic static file server
